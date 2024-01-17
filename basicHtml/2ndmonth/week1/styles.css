@@ -1,0 +1,25 @@
+.inline {
+    display: inline;
+    background-color: blue;
+}
+.inlineblock {
+   display: inline-block;
+    background-color: rgb(255, 0, 0);
+}
+.borderproperties {
+    border: 2px red ;
+    border-style: solid;
+    border-color: violet;
+    border-radius: 10px;
+}
+.boxproperties {
+    background-color: aqua;
+    width: 60%;
+    padding: 20px 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+.para{
+    background-color: blueviolet;
+}
