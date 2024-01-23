@@ -1,0 +1,49 @@
+.mainDiv {
+    height: 400px;
+    width: 50vw;
+    background-color: antiquewhite;
+    position: relative;
+}
+.div1 {
+    background-color: rgb(204, 189, 189);
+    height: 400px;
+    width: 490px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    opacity: 0.5;
+}
+.div2 {
+    background-color: rgb(139, 147, 142);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.sticky {
+    background: rgb(243, 242, 242);
+    padding: 20px;
+    margin: 30px 0;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+    font-size: 3rem;
+    
+}
+
+/* scroll */
+.scroll {
+    border: 2px solid;
+    width: 50vw;
+    overflow: scroll;
+    height: 40vh;
+}
+.float {
+    background: #9ddb99;
+    padding: 20px;
+    width: 20%;
+    margin: 20px 0;
+    float: left;
+    margin-left: 20px;
+    box-shadow: 9px 3px 13px rgb(1, 2, 1, 0.3);
+}
