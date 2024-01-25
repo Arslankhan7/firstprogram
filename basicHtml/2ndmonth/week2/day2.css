@@ -1,11 +1,11 @@
 .mainDiv {
     height: 400px;
     width: 50vw;
-    background-color: antiquewhite;
+    background-color: rgb(168, 160, 149);
     position: relative;
 }
 .div1 {
-    background-color: rgb(204, 189, 189);
+    background-color: rgb(209, 206, 206);
     height: 400px;
     width: 490px;
     position: absolute;
