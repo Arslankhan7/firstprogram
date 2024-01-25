@@ -1,0 +1,27 @@
+.active a{
+    text-decoration: none;
+}
+.active a:active{
+text-decoration: underline;
+color: tomato;
+}
+.hover button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.6rem;
+}
+.container:focus-within{
+    background-color: burlywood;
+}
+#targetcontainer:target{
+    background-color: springgreen;
+    color: aqua;
+    font-size: 1.3rem;
+}
+.visited a:visited{
+    color: slateblue;
+}
+.btn_visible button:focus-visible{
+    background-color: turquoise;
+}
