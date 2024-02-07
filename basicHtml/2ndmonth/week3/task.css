@@ -1,0 +1,263 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    background-color: transparent;
+    background-image: url('../images/alime-free-template.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+
+
+    
+    
+}
+body {
+    font-family: 'Roboto', sa-serif;    
+    
+}
+
+/* navbar section css starts here */
+.navbar {
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 2px solid blue; */
+}
+.navbar-part-right {
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin-left: 100px;
+}
+.logo {
+    padding: 25px;
+    color: #ffffffee;
+    font-size: 1.6rem;
+    font-weight: 500
+}
+.logo span{
+    color: red;
+}
+.links {
+    margin-top: 5px;
+    padding:10px ;
+    
+}
+.links ul {
+    /* border: 2px solid salmon; */
+    display: flex;
+}
+.links ul a {
+    text-decoration: none;
+}
+.links ul a li {
+    list-style: none;
+    padding: 20px;
+    color: #EBEDEE;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.navbar-part-right {
+    /* border: 2px solid; */
+    margin-right: 100px;
+    
+}
+.btn-started {
+    padding: 0px 0px;
+    border-radius: 2px;
+    border: aqua;
+    background-color:transparent;
+    color: #EBEDEE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 5;
+    
+    margin-top: 40px;
+    border: dotted;    
+}
+.image
+{
+    /* border: 2px solid; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-section-links{
+    margin: 50px auto;
+    width: fit-content;
+    color: aqua;
+
+}
+.grid-section-links a
+{
+   
+    padding: 0 10px;
+    /* border: 2px solid; */
+    width: fit-content;
+    text-decoration: none;
+    color: #d5595c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 20px;
+    
+}
+
+
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(200px,auto);
+    margin: 0 auto;
+    width: 63vw;
+}
+
+.image1
+{
+    background-image: url('../images/images.jpg');
+}
+.image2
+{
+    background-image: url('../images/2018-lamborghini-urus-luxury-suv-4k-wallpaper-preview.jpg');
+}
+.image3
+{
+    background-image: url('../images/bently-continental-wallpaper-preview.jpg');
+}
+.image4
+{
+    background-image: url('../images/Change-and-Acceptance-1362111506.png');
+}
+.image5
+{
+    background-image: url('../images/download.jpg');
+}
+.image6
+{
+    background-image: url('../images/terabytes-binary-code-data-flying-260nw-2103724199.webp');
+}
+.image7
+{
+    background-image: url('../images/rolls-royce-phantom-4k-hd-best-for-desktop-wallpaper-preview.jpg');
+}
+.image8
+{
+    background-image: url('../images/mercedes-benz-mercedes-maybach-gls-600-car-luxury-car-suv-hd-wallpaper-preview.jpg');
+}
+.image9
+{
+    background-image: url('../images/introduction-CSS-cover.png');
+}
+.image10
+{
+    background-image: url('../images/download.png');
+}
+.image11
+{
+    background-image: url('../img/bsd\ 2.jpeg');
+}
+
+
+
+
+/* grid-layout section ends here */
+.view-more-btn
+{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+.view-more-btn button{
+    margin: 20px 0px 50px 0px;
+    background-color: transparent;
+    border: 2px solid #d5595c;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', 'sans serif';
+    
+}
+
+/* instagram section starts here */
+.instagram
+{
+    width: 14vw;
+    /* border: 2px solid; */
+    margin: 10px auto;
+}
+.instagram h1{
+    font-family: 'Roboto','sans serif';
+    font-weight: 600;
+    text-align: center;
+}
+.instagram p{
+    font-family: 'Roboto','sans serif';
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}
+/* gallery section starts here */
+.gallery-container
+{
+    display: flex;
+    margin-top: 40px;
+
+}
+.picture
+{
+    /* border: 2px solid red; */
+    width: 17vw;
+    height: 33vh;
+    background-position: center;
+    background-size: cover;
+}
+.picture1
+{
+    background-image: url('../img/bsd\ 1.jpeg');
+}
+.picture2
+{
+    background-image: url('../img/bsd\ 2.jpeg');
+}
+.picture3
+{
+    background-image: url('../img/bsd\ 3.jpeg');
+}
+.picture4
+{
+    background-image: url('../img/invt\ 4.jpeg');
+}
+.picture5
+{
+    background-image: url('../img/1.jpeg'); 
+}
+.picture6
+{
+    background-image: url('../img/invt\ 2.jpeg');
+}
+
+/* footer section starts here */
+.footer-section
+{
+    display: flex;
+    justify-content: space-around;
+    text-wrap: wrap;
+    margin-left: 20px;
+    padding: 20px;
+}
+.fa-brands
+{
+    padding-left: 10px;
+}
+
